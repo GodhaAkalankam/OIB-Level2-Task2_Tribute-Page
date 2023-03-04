@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+h1 {
+  background-image: url('http://unblast.com/wp-content/uploads/2021/01/Space-Background-Image-2.jpg');
+  color: #F0F8FF;
+  font-family: 'Times New Roman', serif;
+  font-size: 600%;
+  text-align: center;
+}
+body {
+  background-image: url('https://media.tenor.com/f5mKLXp4HtkAAAAC/clouds-night.gif');
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+ padding: 20px;
+}
+
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+h3{
+ 
+ color: #F0F8FF;
+  font-family: 'Times New Roman', serif;
+  font-size: 300%;
+  text-align: center;
+   background-color: black;
+}
+h5{
+color: #F0F8FF;
+  font-family: 'Times New Roman', serif;
+  font-size: 100%;
+  
+   background-color: black;
+}
+
+</style>
+</head>
+<body>
+<h1>Thyagaraja</h1>
+<h3 >Kakarla Thyagabrahmam</h3>
+<center><img src="https://1.bp.blogspot.com/-fPM37K_iBMM/XD7I2HEK4UI/AAAAAAAAYLs/tEz9-gaKFG4U2roeOFdNdM0SQwoz2rjoQCLcBGAs/s1600/Thyagaraja-Aradhana.jpg"></img></center>
+<h3 style="font-size:200%;">let's take a look at his journey</h3>
+<h5><ul><li>Thagayya a form of Indian classical music.Tyagaraja and his contemporaries,Shyama Shastri and Muthuswami Dikshitar are regarded as the Trinity of Carnatic music.Thyagaraja composed thousands of devotional compositions,most in Telugu and in praise of Lord Rama,many of which remain popular today,the most popular being "Nagumomu".Of special mention are five of his compositions called the Pancharatna Kritis (transl. "five gems"),which are often sung in programs in his honour,and Utsava Sampradaya Krithis(Festive ritual compositions),which are often sung to accompany temple rituals.
+</li>
+<li>Tyagaraja lived through the reigns of four kings of the Maratha dynasty–Tulaja II(1763–1787),Amarasimha(1787–1798),Serfoji II(1798–1832) and Sivaji II(1832–1855),although he served none of them.</li>
+<li>Like the great Telugu poet Potana, he spurned patronage and lived in penury.</li>
+<li>Though born and brought up in present-day Tamil Nadu, he mastered the Telugu language and secured for it a preeminent place in the world of music through his wonderful compositions.</li>
+<li>Couched in  a simple and lyrical style, they contain not only profound Vedantic truths, but also elementary rational precepts.</li>
+<li>Ramabrahmam, and Seethamma were the parents of Thyagaraja and his two brothers.</li>
+<li>Ramabrahmam was well versed in the Ramayana by virtue of which Thyagaraja became a devotee of Rama.</li>
+<li>After gaining proficiency in Telugu and Sanskrit, he started to sing and play the Veena under a distinguished Asthana Vidwan in the Tanjore Court. </li>
+<li>It is said that he chanted Rama Nama (name) 1,25,000 times everyday and completed 96 crores before he was thirty eight</li>
+<li>Legend has it that the great sage Narada himself appeared before Thyagaraja and presented him a sacred treatise called Swararnava which is supposed to be the record of a dialogue between Shiva and Parvati on the glory and mysteries of music. </li>
+<li>Thyagaraja spurned all temporal honours and rewards and lived only for worshiping Rama. </li>
+</ul></h5>
+<h3>Timeline</h3>
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>Birth</h2>
+      <p> Born Kakarla Thyagabrahmam on 4 May 1767, in Thiruvarur,Tanjore District,in a Telugu Brahmin sect called Mulakanadu Trilinga.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Begining of Music</h2>
+      <p>Tyagaraja began his musical training at an early age under Sonti Venkata Ramanayya, a music scholar, after the latter heard his singing and was impressed by the child prodigy.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Meaning of Music</h2>
+      <p>Tyagaraja regarded music as a way to experience God's love.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Expressions of Music</h2>
+      <p> His compositions focused on expression, rather than on the technicalities of classical music.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Fame</h2>
+      <p>Sonti Venkataramanayya informed the king of Thanjavur of Tyagaraja's genius.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Music Principal</h2>
+      <p>Usually,Tyagaraja used to sing his compositions sitting before deity manifestations of Lord Rama,and his disciples noted down the details of his compositions on palm leaves.</p>
+    </div>
+  </div>
+</div>
+  <div class="container left">
+    <div class="content">
+      <h2>Composition</h2>
+      <p>About 700 songs remain of the 24,000 songs said to have been composed by him.In addition to nearly 700 compositions (kritis), Tyagaraja composed two musical plays in Telugu, the Prahalada Bhakti Vijayam and the Nauka Charitam. Prahlada Bhakti Vijayam is in five acts with 45 kritis set in 28 ragas and 138 verses, in different metres in Telugu. Nauka Charitam is a shorter play in one act with 21 kritis set in 13 ragas and 43 verses.</p>
+    </div>
+  </div>
+<div class="container right">
+    <div class="content">
+      <h2>Mortality</h2>
+      <p>Rangaramanuja Iyengar, a leading researcher on Carnatic music, in his work Kriti Manimalai, has described the situation prevailing at the time of the death of Tyagaraja.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Legacy</h2>
+      <p>The latter is the most popular of Tyagaraja's operas, and is a creation of the composer's own imagination and has no basis in the Bhagavata Purana. Tyagaraja also composed a number of simple devotional pieces appropriate for choral singing.</p>
+    </div>
+  </div>
+<h3 style="font-size:200%;">Remembrance</h3>
+<h5>Tyagaraja Aradhana, the commemorative music festival is held every year in Thiruvaiyaru in Thanjavur district of Tamil Nadu, during the months of January to February in Tyagaraja's honor.This is a week-long festival of music where various Carnatic musicians from all over the world converge at his resting place.</h5>
+<h5>On the Pushya Bahula Panchami,thousands of people and hundreds of Carnatic musicians sing the five Pancharatna Kritis in unison, with the accompaniment of a large bank of accompanists on veenas, violins, flutes, nadasvarams, mridangams and ghatams.</h5>
+<h5>A sports complex in New Delhi, Thyagaraj Sports Complex, was named after him. A crater on the planet Mercury was named after Tyagaraja in 1976.</h5>
+
+<h3 style="font-size:200%;">Films on Tyagaraja</h3>
+<h5>Apart from references to his works, using the kirtanas as songs, two films were made on his life. V. Nagayya made a biographical epic on Tyagaraja titled Tyagayya in 1946 which is still treated as a masterpiece of Telugu cinema. </h5>
+<h5>Ramana made Tyagayya with J. V. Somayajulu in the lead role. Another attempt is being made by Singeetam Srinivasa Rao to picturise Tyagaraja's life</h5>
+<h5> Apart from these, Bombay Gnanam made a short film known as Endaro Mahanubavulu on Tyagaraja. The short film was released on 27 February 2021, on the 174th Tyagaraja Aradhana festival.</h5>
+<h3 style="font-size:200%;">Raga on Tyagaraja</h3>
+
+<h5>Carnatic kriti 'Sri Ramachandram Bhajami' in raga 'Sri Tyagaraja' created and composed by Mahesh Mahadev named after Saint Tyagaraja sung by Priyadarshini was released on 10 January 2023 at Thyagaraja Samadi during 176th Tyagaraja Aradhana festival</h5>
+
+
+</body>
+</html>
